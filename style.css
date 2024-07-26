@@ -14,6 +14,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
+}
+
+html {
+    background-color: #6C6C6C
+}
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    margin: 0 auto;
 }
 
 #banner {
@@ -26,8 +38,8 @@
 }
 
 #banner img {
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
 }
 
 #banner svg {
@@ -64,4 +76,58 @@
     font-size: 25px;
     font-weight: 300;
     width: 680px;
+}
+
+#portifolio {
+    height: 100vh;
+    background-color: #6C6C6C;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#portifolio svg {
+    width: 100%;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.imgs img {
+    width: 500px;
+    height: 280px;
+}
+
+.imgs svg {
+    height: 100px;
+    display: none;
+}
+
+#descricao {
+    padding: 5%;
+    height: 600px;
+    width: 90%;
+    background-color: #767676;
+
+    margin: 0 auto;
+    border-radius: 70px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#descricao li , #descricao p {
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    color: white;
+}
+
+ul li{
+    margin-left: 50px;
 }
