@@ -78,6 +78,13 @@ html {
     width: 680px;
 }
 
+#banner button {
+    background-color: #3D3D3D;
+    border: none;
+
+    cursor: pointer;
+}
+
 #portifolio {
     height: 100vh;
     background-color: #6C6C6C;
@@ -109,11 +116,11 @@ html {
 
 #descricao {
     padding: 5%;
-    height: 600px;
+    height: 500px;
     width: 90%;
     background-color: #767676;
 
-    margin: 0 auto;
+    margin: 50px auto;
     border-radius: 70px;
 
     text-align: center;
@@ -130,4 +137,80 @@ html {
 
 ul li{
     margin-left: 50px;
+}
+
+.linha {
+    width: 100%;
+}
+
+#footer {
+    height: 400px;
+    margin-top: 50px;
+    background-color: #3D3D3D;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 50px 0px 100px
+}
+
+.redes {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.tecnologias {
+    display: flex;
+    gap: 40px;
+}
+
+.redes a {
+    font-family: "Roboto Mono";
+    color: white;
+}
+
+#fecha {
+    display: none;
+}
+
+#menu {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding-top: 70px;
+    padding-left: 20px;
+    gap: 25px;
+    
+    background-color: #333333;
+} 
+
+#menu a {
+    align-items: center;
+    font-family: "Roboto Mono";
+    font-size: 20px;
+    color: #B4E746;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#menu svg {
+    width: 53px;
+    height: 53px;
 }
